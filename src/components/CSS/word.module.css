@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    gap: .25em;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.word {
+    text-align: center;
+    border-bottom: .6rem solid black;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        font-size: 3rem;
+    }
+
+    .word {
+        width: 30px;
+        border-bottom: 0.5rem solid black;
+    }
+}
+@media screen and (max-width: 500px) {
+    .container {
+        font-size: 2rem;
+    }
+
+    .word {
+        width: 25px;
+        border-bottom: 0.5rem solid black;
+    }
+}
