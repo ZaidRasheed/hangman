@@ -13,7 +13,7 @@ function getWord() {
 }
 
 function App() {
-  const [wordToGuess, setWordToGuess] = useState<string>('appropraite')
+  const [wordToGuess, setWordToGuess] = useState<string>(getWord())
 
   const [guessedLetters, setGuessedLetters] = useState<string[]>([])
 
